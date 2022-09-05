@@ -2,3 +2,48 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #1F222A;
+}
+
+header {
+  display: inline-flex;
+  padding-top: 10px;
+  color: white;
+}
+
+header .logo {
+  max-width: 25px;
+  max-height: 25px;
+  padding-left: 500px;
+}
+
+header h3 {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+header p {
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.invite-button {
+  margin-top: 4px;
+  margin-left: 150px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: #F00505;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.invite-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 50px rgba(240, 5, 5, 1);
+}
