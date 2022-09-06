@@ -24,15 +24,17 @@ header h3 {
   margin-top: 3px;
 }
 
-header p {
+header a {
   margin-top: 5px;
   margin-left: 25px;
   margin-right: 25px;
+  text-decoration: none;
+  color: white;
 }
 
 .invite-button {
   margin-top: 4px;
-  margin-left: 150px;
+  margin-left: 125px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   background: #F00505;
